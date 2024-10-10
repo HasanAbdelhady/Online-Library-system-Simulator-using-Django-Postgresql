@@ -25,11 +25,9 @@ class AccountsDetailView(LoginRequiredMixin, DetailView):
     context_object_name = 'student'
 
     def get_object(self, queryset=None):
-        """Override this method to handle non-existing IDs"""
         return get_object_or_404(Student, pk=self.kwargs.get('pk'))
 
     def get(self, request, *args, **kwargs):
-        """Override this method to handle 404 errors"""
         try:
             student = self.get_object()
         except Http404:
