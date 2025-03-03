@@ -1,5 +1,9 @@
 # Online Library Simulator 📕 
+**This is a Django CRUD Web application that utilizes Django's Class-based views, admin panel for an optimized, easy-to-understand back-end and TailwindCSS for a better look on the frontend**
 
+**Users are capable of logging in, borrowing/returning books (could easily be add/remove from cart if this was an E-Commerce app), they have full control over their accounts, they can add/change their profile picture or change their password**
+
+**an admin can see all registered users and their profiles with the books they've borrowed, but can't change any user's data**
 ## **Home without logging in:**
 ![home](https://github.com/user-attachments/assets/20ed6ef2-3c55-485d-bd60-b7fad256b1c0)
 
